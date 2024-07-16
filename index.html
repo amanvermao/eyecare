@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Slider with Text and Image Animation</title>
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="main-body-wrapper">
+<!-- top header starts -->
+    <section>
+   <div class="header-top">
+    <div class="container-fluid">
+       <div class="row">
+        <div class="col-7">
+<div class="items-wrapper">
+    <div class="item"><spam class="item-text">Email: sample@example.com</spam></div>
+    
+    <div class="item"><spam>380 Albert St, Melborne</spam></div>
+<div class="item">  <spam>Call: +1 (230)-456-155-23</spam></div>
+</div>
+        </div>
+        <div class="col-5">
+            <div class="items-wrapper">   
+            <div class="item">  <spam>Sun-Thu 08:00AM-05:00PM</spam></div>
+            </div>
+        </div>
+       </div>
+    </div>
+   </div>
+    </section>
+
+    <!-- nav starts here -->
+    
+    <section>
+  <div class="navbar-wrapper">
+    <div class="nav-inner">
+      <div class="nav-items">
+        <img src="./assets/logo-2.png" alt="opt-logo">
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Services</li>
+    <a href="./contact.html"><li>Contact Us</li></a>
+        </ul>
+      <button>Contact Us</button>
+      </div>
+    </div>
+  </div>
+    </section>
+
+    <!-- banner starts here -->
+    <section>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 banner-container">
+              <div class="banner" id="banner1">
+                <img src="./assets/banner-1.jpg" alt="Banner 1">
+                <div class="shape-1"></div>
+                <div class="green-overlay"></div>
+                <div class="black-overlay"></div>
+                <div class="main-banner-texts-wrapper">
+                  <div class="main-banner-texts">
+                    <div class="pattern zoom-in-zoom-out"></div>
+                    <div class="container1"></div>
+                    <span class="heading-text-1">Raaj Eye Hospital</span>
+                    <h1 class="heading-text-2">Eye Care Clinic in Goregoan West</h1>
+                    <span class="heading-text-3">We solve all your eye care needs by providing personalized and holistic eye care for you and your family!</span>
+                    <button class="heading-btn">Contact Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="banner" id="banner2">
+                <img src="./assets/banner-2.jpg" alt="Banner 2">
+                <div class="shape-1"></div>
+                <div class="green-overlay"></div>
+                <div class="black-overlay"></div>
+                <div class="main-banner-texts-wrapper">
+                  <div class="main-banner-texts">
+                    <div class="pattern zoom-in-zoom-out"></div>
+                    <h1 class="big-title">EYECARE</h1>
+                    <span class="heading-text-1">Raaj Eye Hospital</span>
+                    <h1 class="heading-text-2">Eye Care Clinic in Goregoan West</h1>
+                    <span class="heading-text-3">We solve all your eye care needs by providing personalized and holistic eye care for you and your family!</span>
+                    <button class="heading-btn">Contact Now</button>
+                  </div>
+                </div>
+              </div>
+              <button class="nav-btn prev-btn" onclick="showPreviousBanner()">Previous</button>
+              <button class="nav-btn next-btn" onclick="showNextBanner()">Next</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- home about starts here  -->
+
+      <section>
+        <div class="home-doctor-top pb-5">
+          <span class="doctor-top-text-1">About Us</span>
+          <span class="doctor-top-text-2">The Great Place Of Eyecare Hospital Center</span>
+        </div>
+
+        <div class="container-fluid">
+
+          <div class="row justify-content-around">
+            <div class="col-4 home-about-left">
+
+              <span>
+                Welcome to Dr. Supriya’s Dental Studio! We are proud to be a new age dental facility that’s equipped with the latest technology and modern equipment to provide you with the best dental care services possible. Our team of experienced dentists is committed to offering personalized care to every patient who walks through our doors.
+              </span>
+              <span>We know how important dental health is to overall well-being, which is why we offer comprehensive dental care solutions to help you achieve a healthy, beautiful smile. Whether you need routine dental check-ups, preventive care, cosmetic dentistry, orthodontic treatment or dental implants, we are here to help.</span>
+              <span>
+                At our clinic, we use the latest technology to diagnose and treat dental problems effectively. .
+              </span>
+              <button class="heading-btn about-btn">Keep Reading</button>
+
+            </div>
+
+            <div class="col-3 home-about-center">
+   <img src="./assets/about/doctor-big-img.png" alt="doc-img">
+            </div>
+
+            <div class="col-4 home-about-right">
+        <div class="working-info">
+  <h1>Working Hours </h1>
+  <span>Monday – Saturday </span>
+  <span>Sunday Closed</span>
+  <span>Morning – 10am – 2pm </span>
+  <span>Evening –  5pm – 9 pm</span>
+        </div>
+
+        <div class="appointment-text">
+<h1>Appointment Booking</h1>
+<span>“Appointments are appreciated to ensure that we can provide the best possible dental care services and avoid long wait times.”</span>
+        </div>
+            </div>
+            <div class="end-strip">
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, accusantium.</span>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+<!-- home service section starts  -->
+
+      <section class="services-wrapper">
+<div class="home-services-top">
+  <span class="services-top-text-1">Our Services</span>
+  <span class="services-top-text-2">A Global Leader, Treatment
+    of eye Disease</span>
+</div>
+<div class="container-fluid">
+  <div class="row justify-content-center gap-lg-5">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 services-cards">
+      <div class="services-card">
+        <div class="card-img-wrapper">
+          <div class="card-img">
+            <img src="./assets/services/service-2.jpg" alt="ser-img">
+          </div>
+        </div>
+        <div class="card-icone">
+          <i class="fa-regular fa-eye"></i>
+        </div>
+        <div class="card-texts">
+          <h1>Surgical Procedures</h1>
+          <span>Lorem ipsum dolor amet consectur tempor adicing elit sed do usmod tempor incidunt enim minim veniam.</span>
+          <button>Read More</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 services-cards">
+      <div class="services-card">
+        <div class="card-img-wrapper">
+          <div class="card-img">
+            <img src="./assets/services/service-2.jpg" alt="ser-img">
+          </div>
+        </div>
+        <div class="card-icone">
+          <i class="fa-regular fa-eye"></i>
+        </div>
+        <div class="card-texts">
+          <h1>Surgical Procedures</h1>
+          <span>Lorem ipsum dolor amet consectur tempor adicing elit sed do usmod tempor incidunt enim minim veniam.</span>
+          <button>Read More</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 services-cards">
+      <div class="services-card">
+        <div class="card-img-wrapper">
+          <div class="card-img">
+            <img src="./assets/services/service-2.jpg" alt="ser-img">
+          </div>
+        </div>
+        <div class="card-icone">
+          <i class="fa-regular fa-eye"></i>
+        </div>
+        <div class="card-texts">
+          <h1>Surgical Procedures</h1>
+          <span>Lorem ipsum dolor amet consectur tempor adicing elit sed do usmod tempor incidunt enim minim veniam.</span>
+          <button>Read More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </section>
+
+      <!-- doctors section -->
+
+  <section>
+    <div class="home-doctor-top">
+      <span class="doctor-top-text-1">Ophthalmologist</span>
+      <span class="doctor-top-text-2">The Most Qualified Skillful & Professional staff</span>
+    </div>
+<div class="doctors-wrapper">
+  <div class="doctors">
+    <div class="doc-card">
+      <figure class="doc-img">
+<img src="./assets/about/doc-img1.jpg" alt="doc-img1">
+      </figure>
+      <div class="doc-lower-content">
+        <div class="share-box">
+          <a href="#" class="doc-share-icone">
+            <i class="fa-solid fa-share"></i>
+          </a>
+        </div>
+        <h3 class="doc-card-text-1">Susan Hopkins</h3>
+        <span class="doc-card-text-2">Cataract surgery</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="doc-lower-btn">
+  <button>read More</button>
+</div>
+    
+
+  </section>
+
+  <!-- review section starts  -->
+
+
+  <section class="review-wrapper" style="padding-bottom: 100px;">
+
+    <div class="review-box-wrapper">
+      <div class="review-box">
+        <div class="home-review-top">
+            <span class="review-top-text-1">Testimonial</span>
+            <span class="review-top-text-2">What Our Client Say About Optcare</span>
+          </div>
+        <div class="testimonial-container">
+            <div class="slides-wrapper">
+                <div class="testimonial-slide">
+                    <p class="review-text">“Adipisicing elit sed do eiusmodim tempor incid labore etax dolore magna aliqua enim minium quis veniam nostrud exer cition ulamco laboris nisar aliquip commodo consequat aute irure dolor in reprehenderit in voluptate”.</p>
+                    <div class="client-info">
+                        <img src="./assets/reviews/testimonial-1.jpg" alt="Client Image">
+                        <div class="client-text">
+                          <h4>aman</h4>
+                          <p>Ele</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <p class="review-text">“Adipisicing elit sed do eiusmodim tempor incid labore etax dolore magna aliqua enim minium quis veniam nostrud exer cition ulamco laboris nisar aliquip commodo consequat aute irure dolor in reprehenderit in voluptate”.</p>
+                    <div class="client-info">
+                      <img src="./assets/reviews/testimonial-1.jpg" alt="Client Image">
+                      <div class="client-text">
+                        <h4>aman</h4>
+                        <p>Ele</p>
+                       </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <p class="review-text">“Adipisicing elit sed do eiusmodim tempor incid labore etax dolore magna aliqua enim minium quis veniam nostrud exer cition ulamco laboris nisar aliquip commodo consequat aute irure dolor in reprehenderit in voluptate”.</p>
+                    <div class="client-info">
+                      <img src="./assets/reviews/testimonial-1.jpg" alt="Client Image">
+                       <div class="client-text">
+                        <h4>aman</h4>
+                        <p>Ele</p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    <div class="dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+      </div>
+    </div>
+  
+  </section>
+
+    <!-- map section -->
+
+    <section class="pt-5">
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.719090701272!2d72.8455707003767!3d19.163769762569235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b768951957f3%3A0x41570148fcb98da5!2sRaaj%20Eye%20Hospital!5e0!3m2!1sen!2sin!4v1721053491554!5m2!1sen!2sin" width="1530" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+         <!-- footer starts here -->
+<section class="footer-wrapper">
+  <footer class="footer">
+    <div class="shap-overlay2">
+      
+    </div>
+    <div class="container" style="padding-bottom: 100px;">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-about">
+                    <h5>About</h5>
+                    <p>Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim ad minim.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-links">
+                    <h5>Links</h5>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Surgical</a></li>
+                        <li><a href="#">Ophthalmology</a></li>
+                        <li><a href="#">Lenses</a></li>
+                        <li><a href="#">Laser Eye</a></li>
+                        <li><a href="#">Vision Correction</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-services">
+                    <h5>Services</h5>
+                    <ul>
+                        <li><a href="#">Contact Lens</a></li>
+                        <li><a href="#">Retinopathy</a></li>
+                        <li><a href="#">Qualified Doctors</a></li>
+                        <li><a href="#">Modern Equipment</a></li>
+                        <li><a href="#">Emergency Help</a></li>
+                        <li><a href="#">Individual Approach</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-contact">
+                    <h5>Contacts</h5>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Flat 20, Reynolds Neck, North Helenaville, FV77 8WS</li>
+                        <li><i class="fas fa-phone"></i> +2(305) 587-3407</li>
+                        <li><i class="fas fa-envelope"></i> sample@example.com</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer-middle-wrapper">
+      <div class="container  footer-middle-section">
+ <div class="footer-middle-image">
+  <img src="./assets/logo-2-nobg.png" alt="footer-logo">
+ </div>
+ <div class="footer-middle-text">
+<span>Contact Lens
+</span>
+<span>Portfolio</span>
+<span>Doctors</span>
+<span> Treatment </span>
+<span>Contact</span>
+ </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>&copy; 2024 Optcare. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</section>
+
+
+      
+    </div>
+
+    
+    <script src="./js/home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
